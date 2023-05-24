@@ -18,3 +18,25 @@
       <form id="startform">
         <input id="enteredletter" type="text" placeholder="Enter a letter" maxlength="1" />
         <input type="submit" value="Submit" />
+    </form>
+    <div id="letterdiv"></div>
+    <p>Get a hint if you need any help</p>
+    <div id="hintdiv" class="hidden">
+      <p>Hint:-</p>
+      <p class="hint-txt">Sample Hint for test</p>
+    </div>
+    <div class="word-div"></div>
+    <h3>Remaining Lives: <span id="lives">5</span></h3>
+    <div class="row hint-div">
+      <button class="hint-btn">Hint</button>
+      <button class="reset-btn">Reset</button>
+    </div>
+  </div>
+  <div id="restartdiv" class="notif hidden">
+    <h2>Game Over !!</h2>
+    <h3 class="notif-content">You won</h3>
+    <h4>Correct Word: <span class="notif-span"></span></h4>
+    <button class="notif-btn">Play again</button>
+  </div>
+</body>
+</html>
