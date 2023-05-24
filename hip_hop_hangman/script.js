@@ -65,3 +65,6 @@ startform.addEventListener("submit", (event) => {
     event.preventDefault();
     const formanswer = document.getElementById("enteredletter").value;
     const livesleft = document.getElementById("lives");
+    // check if Buhloon Mindstate has the letter given in answer
+    const lowercaseanswer = songarray[currentquestion].answer.toLowerCase();
+    const lowercaseformanswer = formanswer.toLowerCase();
