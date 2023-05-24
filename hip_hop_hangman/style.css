@@ -36,3 +36,22 @@ button {
 #question {
     font-size: 2rem;
 }
+
+#enteredletter {
+    background-color: white;
+    text-align: center;
+}
+#restartdiv {
+    display: none;
+}
+#letterdiv {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+#letterdiv > p {
+    color: black;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.25rem;
+    transition: all 0.3s;
+}
