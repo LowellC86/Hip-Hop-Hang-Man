@@ -9,3 +9,17 @@ h1{
     font-size: 4em;
     padding: 2em;
 }
+
+button {
+    background: linear-gradient(to right, rgb(133, 130, 130), rgb(213, 211, 209));
+    color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 0.25rem 1rem;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Fraunces', serif;
+}
+#startdiv {
+    display: none;
+}
