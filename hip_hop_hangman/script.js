@@ -10,4 +10,25 @@
 //if no  - ‘game over’
 //8. check if they won - start over and start over
 
+//questions 
+
+// What state is De La Soul in
+
+//Buhloone Mindstate
+
+// what song is Redman featured in
+
+//Oooh
+
+//Why is 3 magical
+
+// the magic number
+
+// what is this famous Native Tngue posse cut
+
+//Buddy
+
+//What was the single to De La Soul's fourth album
+
+//Stakes is High
 
