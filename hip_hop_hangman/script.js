@@ -68,3 +68,15 @@ startform.addEventListener("submit", (event) => {
     // check if Buhloon Mindstate has the letter given in answer
     const lowercaseanswer = songarray[currentquestion].answer.toLowerCase();
     const lowercaseformanswer = formanswer.toLowerCase();
+    if (lowercaseanswer.includes(lowercaseformanswer)) {
+        // some occurences is an array of the indexes of the letter in the answer
+        const someoccurences = findOccurences
+        (lowercaseanswer, lowercaseformanswer);
+
+        //loop through and display every found letter in the answer//
+        someoccurences.forEach((index) => {
+            lettersdiv.children[index].style.color = "white";
+
+        })
+    }
+    }
