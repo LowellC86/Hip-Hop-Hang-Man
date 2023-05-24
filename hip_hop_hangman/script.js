@@ -81,12 +81,5 @@ startform.addEventListener("submit", (event) => {
 
         //only if all of the children of lettersdiv are white, then the question is finished
 
-        let allwhite = true;
-        for (let i= 0; i < lettersdiv.children.length; i++) {
-            if (lettersdiv.children[i].style.color !==
-                "white") {
-                    allWhite = false;
-                }
-        }
-    }
+    
     }
