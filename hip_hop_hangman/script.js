@@ -8,6 +8,6 @@
 //6. update dom correct guess or incorrect guess)
 //7. check if they have any guesses left 
 //if no  - ‘game over’
-//8. check if they won - start over
+//8. check if they won - start over and start over
 
 
