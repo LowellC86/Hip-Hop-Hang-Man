@@ -49,3 +49,13 @@ startbutton.addEventListener("click", () => {
     startdiv.style.justifyContent = "center";
     startdiv.style.alignItems = "center";
 });
+
+//  5 iterations for each question
+// change the question every time answer is filled
+
+
+songarray[0].answer.split("").forEach((letter) => {
+    const letterholder = document.createElement("p");
+    letterholder.innerHTML = letter;
+    lettersdiv.appendChild(letterholder);
+})
