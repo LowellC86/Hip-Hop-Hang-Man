@@ -59,3 +59,9 @@ songarray[0].answer.split("").forEach((letter) => {
     letterholder.innerHTML = letter;
     lettersdiv.appendChild(letterholder);
 })
+
+startform.addEventListener("submit", (event) => {
+    // if the submitted letter is in the answer string, then display "Correct", if not, display "Incorrect"
+    event.preventDefault();
+    const formanswer = document.getElementById("enteredletter").value;
+    const livesleft = document.getElementById("lives");
