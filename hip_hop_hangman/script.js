@@ -42,3 +42,10 @@ const startdiv = document.getElementById("startdiv");
 const startform = document.getElementById("startform");
 const lettersdiv = document.getElementById("letterdiv");
 
+startbutton.addEventListener("click", () => {
+    startbutton.style.display = "none";
+    startdiv.style.display = "flex";
+    startdiv.style.flexDirection = "column";
+    startdiv.style.justifyContent = "center";
+    startdiv.style.alignItems = "center";
+});
