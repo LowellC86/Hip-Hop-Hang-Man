@@ -32,3 +32,7 @@
 
 //Stakes is High
 
+
+let songarray = [{question: "What state is De La Soul in?", answer: "Buhloone Mindstate", hint: "Third Album"},{question: "What song is Redman featured on?", answer: "Oooh", hint: "Think Young MA"}, {question: "Why is Three magical?", answer: "The Magic Number", hint: "Pos, Dave, Maseo"}, {question: "What is this famous Native Tngue posse cut?", answer: "Buddy", hint: "All in my face"}, {question: "What was the single to De La Soul's fourth album", answer: "Stakes Is High", hint: "Jay Dee produced it"}]
+let questionfinished = false;
+let currentquestion = 0;
