@@ -6,13 +6,12 @@ body {
 }
 
 h1{ 
-    font-size: 4em;
+    font-size: 3em;
     padding: 2em;
 }
-
 button {
-    background: linear-gradient(to right, rgb(133, 130, 130), rgb(213, 211, 209));
-    color: white;
+    background: linear-gradient(to right, rgb(170, 168, 168), rgb(233, 232, 229));
+    color: black;
     display: block;
     margin: 0 auto;
     padding: 0.25rem 1rem;
@@ -21,28 +20,30 @@ button {
     font-family: 'Fraunces', serif;
 }
 #startdiv {
-    display: none;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
 }
 
-#startbutton {
-    font-size: 2rem;
-    margin-top: 20vh;
-}
+
 #hintdiv {
     display: none;
 }
 
 
 #question {
-    font-size: 2rem;
+    font-size: 3rem;
 }
-
 #enteredletter {
     background-color: white;
     text-align: center;
 }
 #restartdiv {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #letterdiv {
     display: flex;
@@ -54,4 +55,7 @@ button {
     border-bottom: 2px solid white;
     padding-bottom: 0.25rem;
     transition: all 0.3s;
+}
+#youwon {
+    display: none;
 }
